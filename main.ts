@@ -606,6 +606,9 @@ f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f f 
 `, SpriteKind.Enemy)
     STALKER.setPosition(40, 75)
 }
+info.onLifeZero(function () {
+    game.over(false)
+})
 let STALKER: Sprite = null
 let CandyRed: Sprite = null
 let Test_dummy: Sprite = null
